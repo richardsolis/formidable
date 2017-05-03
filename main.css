@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+}
+header{
+  width: 100%;
+  height: 14vh;
+  background: #57c5e8;
+}
+.contenedor{
+  width: 85%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.slide{
+  width: 100%;
+  height: 86vh;
+  background: #57c5e8;
+  display: flex;
+  align-items: center;
+}
+.contenedor-slide{
+  width: 85%;
+  margin: auto;
+  display: flex;
+}
+.contenedor-slide .box-text{
+  color: white;
+}
+.contenedor-slide .box-text h2{
+  font-size: 46px;
+  font-family: 'Playfair Display', serif;
+}
+.contenedor-slide .box-text p{
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+}
+.contenedor-slide .box-text h2, p{
+  margin-bottom: 40px;
+}
+.sing{
+  padding: 10px 55px;
+  background: none;
+  border: 3px solid white;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+}
+.img-monitor{
+  position: absolute;
+  right: 0%;
+  overflow: hidden;
+  width: 43%;
+  margin-top: 32px;
+}
+.img-monitor img{
+  width: 120%;
+height: auto;
+}
+.text-block-2{
+  width: 100%;
+  height: 470px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.contenido-text-2{
+  width: 850px;
+  margin: auto;
+}
+.contenido-text-2 h3{
+  color: #E9E7E7;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.contenido-text-2 p{
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+}
+.contenido-text-2 .text-rigth{
+  text-align: right;
+  color: #E9E7E7;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+.box-img{
+  width: 100%;
+  height: 600px;
+  background: #E9E7E7;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.img-block{
+  width: 500px;
+  height: 500px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+.img-block img{
+  width: 100%;
+}
+footer{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+.container-footer{
+  margin: auto;
+  width: 50%;
+}
+ul{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+  color: #51bde0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
