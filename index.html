@@ -14,7 +14,8 @@
   <body>
       <div class="nav-R">
           <img src="./img/logo.png">
-          <a href="#">Login</a>
+          <a href="#" class="login" >Login</a>
+          <a href="#" class="menu" ><img src="./img/menu.png" alt=""></a>
       </div>
       <div class="container-fluid nav-2">
         <div class="row">
@@ -24,7 +25,111 @@
             <li><a href="#">RESPONSES</a></li>
           </ul>
         </div>
-
+      </div>
+      <div class="container">
+        <div class="box-text">
+          <div>
+            <h1>What kind of restaurants do you prefer?</h1>
+            <p>A set of questions exploring qualities of your favorite restaurants</p>
+          </div>
+        </div>
+        <div class="box-text">
+          <div>
+            <h3>What is your name?</h3>
+            <input type="text">
+            <p class="text-plomito">Your full name pleace</p>
+          </div>
+        </div>
+        <div class="options-box">
+          <p class="title">what is the single most important quality of a restaurants</p>
+          <fieldset class="form-group">
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                  How lud or quiet it is
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option2" checked>
+                  The drink selection
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option3" checked>
+                  The quality of the food
+                </label>
+              </div>
+              <div class="form-check">
+              <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option4">
+                    The dessert
+                </label>
+                <div class="form-check">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option5" checked>
+                  Other
+                  <input type="text">
+                </label>
+              </div>
+              </div>
+          </fieldset>  
+          <p class="text-plomito">Think hard! You can only choose one</p>    
+        </div>
+        <div class="box-input">
+          <div>
+            <label class="form-check-label">
+                  QUESTIONS TITLE
+                  <input type="text" class="form-check-input" name="optionsRadios" id="optionsRadios2" >
+            </label>
+            <label class="form-check-label">
+                  HELP TEXT
+                  <input type="text" class="form-check-input" name="optionsRadios" id="optionsRadios2">
+            </label>
+            <label class="form-check-label">
+                  QUESTIONS TYPE
+                  <select name="carlist" form="carform">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                  </select>
+            </label>
+            <input type="submit" value="SAVE" class="save">
+          </div>
+        </div>
+        <div class="box-buttons">
+          <div class="button-center">
+            <p>ADD A QUESTIONS</p>
+            <div class="row">
+              <div class="col-md-2 botones">
+                <p>SINGLE LINE</p>
+                <div class="icono-especial">
+                  <img src="./img/icono1.png">
+                </div>
+              </div>
+              <div class="col-md-2 botones">
+                <p>PARAGRAPH</p>
+                <div class="icono">
+                  <img src="./img/icono2.png">
+                </div>
+              </div>
+              <div class="col-md-2 botones">
+                <p>CHECK BOXES</p>
+                <div class="icono">
+                  <img src="./img/icono3.png">
+                </div>
+              </div>
+              <div class="col-md-2 botones">
+                <p>MULTIPE CHOICE</p>
+                <div class="icono">
+                  <img src="./img/icono4.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
   </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

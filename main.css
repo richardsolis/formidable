@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto');
 *{
   margin: 0;
   padding: 0;
@@ -14,4 +15,225 @@
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
   display: flex;
+  align-items: center;
+  padding: 0px 65px !important;
 }
+.nav-2 ul{
+    display: flex;
+    align-items: center;
+    width: 239px;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+}
+.nav-2 ul a{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-2 ul a:hover:after {
+    font-size: 70px;
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    top: 20px;
+    padding: 2px 50%;
+    background: black;
+    position: absolute;
+    right: 0px;
+    top: 32px;
+}
+.box-text h1{
+  font-size: 36px;
+  color: #000;
+  font-family: 'Playfair Display', serif;
+}
+.box-text{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #b9b9b9;
+}
+.text-plomito{
+  font-size: 18px;
+  color: #9b9b9b;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+}
+.box-text h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 20px;
+}
+.box-text div {
+    width: 100%;
+}
+.box-text input {
+    width: 50%;
+    padding: 8px 5px;
+}
+.options-box .title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 20px;
+}
+.options-box label{
+  font-size: 18px;
+  color: #4a4a4a;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5px;
+  font-weight: 300;
+}
+.options-box{
+  margin-top: 30px;
+}
+.box-input{
+  width: 100%;
+  height: 400px;
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+}
+.box-input div{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.box-input div label{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #9b9b9b;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  font-weight: 300;
+}
+.box-input div label input{
+  width: 75%;
+  padding: 5px 5px;
+
+}
+.box-input div label select{
+  width: 75%;
+  padding: 5px 5px;
+  background: white;
+
+}
+.save{
+  width: 100px;
+  height: 30px;
+  background: #4abde2;
+  border:none;
+  border-radius: 20px;
+  color: white;
+  outline: none;
+  margin-left: 25%;
+  margin-top: 30px;
+}
+.box-buttons{
+  width: 100%;
+  height: 220px;
+  border: 1px dashed grey;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.button-center{
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #9b9b9b;
+  font-family: 'Roboto', sans-serif;
+}
+.button-center p{
+  margin-bottom: 30px;
+}
+  
+.botones{
+  border: 2px solid #4abde2;
+  margin-left:6.5%;
+  border-radius: 20px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  color: #4abde2;
+  font-size: 15px;  
+  cursor: pointer;
+}
+.botones p{
+  margin: 0;
+  margin: auto
+}
+.icono{
+  width: 23px;
+}
+.icono-especial{
+  width: 40px;
+}
+.icono-especial img{
+  width: 100%;
+  height: auto;
+}
+.icono img{
+  width: 75%;
+  height: auto;
+}
+.menu{
+    display: none;
+  }
+@media(max-width:992px){
+  .botones{
+    margin-left:0;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .box-buttons{
+    height: auto;
+    padding:20px 0px; 
+  }
+  .box-input div label{
+   flex-direction: column;
+  }
+  .box-input div label input{
+    width: 100%;
+  }
+  .box-input div label select{
+    width: 100%;
+  }
+  .save{
+    margin-left: 0;
+  }
+}
+@media(max-width:320px){
+  .login{
+    display: none;
+  }
+  .menu{
+    display: block;
+  }
+  .nav-2{
+    display: none;
+  }
+  .save{
+    width: 100%;
+  }
+  .box-text input{
+    width: 100%;
+  }
+  .nav-R{
+    padding: 0px 20px;
+  }
+}
+
+
