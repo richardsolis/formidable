@@ -5,56 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <link rel="stylesheet" href="main.css">
+
+
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
   </head>
   <body>
-    <header>
-      <div class="contenedor-top">
-        <div class="logo">
-          <img src="./img/logo-white.png">
-        </div>
-        <p class="login">login</p>
-        <img class="menu" src="./img/burger-white.png">
+      <div class="nav-R">
+          <img src="./img/logo.png">
+          <a href="#" class="login" >Login</a>
+          <a href="#" class="menu" ><img src="./img/menu.png" alt=""></a>
       </div>
-      <div class="slide">
-      <div class="contenedor-slide">
+      <div class="container-fluid nav-2">
+        <div class="row">
+          <ul>
+            <li><a href="#">EDIT</a></li>
+            <li><a href="#">VIEW</a></li>
+            <li><a href="#">RESPONSES</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
         <div class="box-text">
-            <h2>Create beautiful forms</h2>
-            <p class="text-slide">Increase response rate & quality with desing that delinghts</p>
-            <input class="sing" type="submit" value="SING UP">
+          <div>
+            <h1>What kind of restaurants do you prefer?</h1>
+            <p>A set of questions exploring qualities of your favorite restaurants</p>
+          </div>
         </div>
-        <div class="img-monitor">
-          <img src="./img/image-devices.png">
+        <div class="box-text">
+          <div>
+            <h3>What is your name?</h3>
+            <input type="text">
+            <p class="text-plomito">Your full name pleace</p>
+          </div>
+        </div>
+        <div class="options-box">
+          <p class="title">what is the single most important quality of a restaurants</p>
+          <fieldset class="form-group">
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input class="btn-radius" type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                  How lud or quiet it is
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input class="btn-radius" type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option2" checked>
+                  The drink selection
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input class="btn-radius" type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option3" checked>
+                  The quality of the food
+                </label>
+              </div>
+              <div class="form-check">
+              <label class="form-check-label">
+                  <input class="btn-radius" type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option4">
+                    The dessert
+                </label>
+                <div class="form-check">
+                <label class="form-check-label">
+                  <input class="btn-radius" type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option5" checked>
+                  Other
+                  <input type="text">
+                </label>
+              </div>
+              </div>
+          </fieldset>
+          <p class="text-plomito">Think hard! You can only choose one</p>
+        </div>
+        <div class="box-input">
+          <div>
+            <label class="form-check-label">
+                  QUESTIONS TITLE
+                  <input type="text" class="form-check-input" name="optionsRadios" id="optionsRadios2" >
+            </label>
+            <label class="form-check-label">
+                  HELP TEXT
+                  <input type="text" class="form-check-input" name="optionsRadios" id="optionsRadios2">
+            </label>
+            <label class="form-check-label">
+                  QUESTIONS TYPE
+                  <select name="carlist" form="carform">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                  </select>
+            </label>
+            <input type="submit" value="SAVE" class="save">
+          </div>
+        </div>
+        <div class="box-buttons">
+          <div class="button-center">
+            <p>ADD A QUESTIONS</p>
+            <div class="row">
+              <div class="col-md-2 botones">
+                <p>SINGLE LINE</p>
+                <div class="icono-especial">
+                  <img src="./img/icono1.png">
+                </div>
+              </div>
+              <div class="col-md-2 botones">
+                <p>PARAGRAPH</p>
+                <div class="icono">
+                  <img src="./img/icono2.png">
+                </div>
+              </div>
+              <div class="col-md-2 botones">
+                <p>CHECK BOXES</p>
+                <div class="icono">
+                  <img src="./img/icono3.png">
+                </div>
+              </div>
+              <div class="col-md-2 botones">
+                <p>MULTIPE CHOICE</p>
+                <div class="icono">
+                  <img src="./img/icono4.png">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    </header>
-    
-    <div class="text-block-2">
-      <div class="contenido-text-2">
-        <h3>WHAT THE MARKET IS SAYING</h3>
-        <p>"84% of all companies use data collection software that hasn't been updated in at least 6 months."</p>
-        <p class="text-rigth">-Wired</p>
-      </div>
-    </div>
-    <div class="box-img">
-      <div class="img-block">
-        <p>Desing surveys with a variety of question formats</p>
-        <img src="./img/block1.png">
-      </div>
-      <div class="img-block">
-        <p>Collect data in tidy spreadsheets</p>
-        <img src="./img/block2.png">
-      </div>
-    </div>
   </body>
-  <footer>
-    <div class="container-footer">
-      <ul>
-        <li>Home</li>
-        <li>Terms y Conditions</li>
-        <li>Privacy</li>
-        <li>Contcat Us</li>
-      </ul>
-    </div>
-  </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="script.js"></script>
 </html>
