@@ -157,7 +157,7 @@
 .button-center p{
   margin-bottom: 30px;
 }
-  
+
 .botones{
   border: 2px solid #4abde2;
   margin-left:6.5%;
@@ -167,7 +167,7 @@
   align-items: center;
   box-sizing: border-box;
   color: #4abde2;
-  font-size: 15px;  
+  font-size: 15px;
   cursor: pointer;
 }
 .botones p{
@@ -190,7 +190,37 @@
 }
 .menu{
     display: none;
-  }
+}
+.btn-radius {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.btn-radius:after {
+  background: white;
+  border-radius: 50%;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+}
+
+.btn-radius:checked:before {
+  background: #51bde0;
+  border-radius: 50%;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
 @media(max-width:992px){
   .botones{
     margin-left:0;
@@ -200,7 +230,7 @@
   }
   .box-buttons{
     height: auto;
-    padding:20px 0px; 
+    padding:20px 0px;
   }
   .box-input div label{
    flex-direction: column;
@@ -235,5 +265,3 @@
     padding: 0px 20px;
   }
 }
-
-
